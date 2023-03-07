@@ -19,7 +19,7 @@ Aloitin ~00:02
 
 - Loin python tiedoston micro editorilla
 
-      $ micro hellobashworld.sh
+      $ micro helloworld.py
 
 - Tiedoston sisään:
 
@@ -31,7 +31,7 @@ Aloitin ~00:02
       
 Tulos:
 
-![Add file: 13 1}(13-1.PNG)
+![Add file: 13 1](13-1.PNG)
 
 ### Bash
 
@@ -49,7 +49,7 @@ Tulos:
       
 Tulos:
 
-![Add file: 13 2}(13-2.PNG)
+![Add file: 13 2](13-2.PNG)
 
 ### C
 
@@ -74,4 +74,12 @@ Tulos:
 
 Tulos:
 
-![Add file: 13 3}(13-3.PNG)
+![Add file: 13 3](13-3.PNG)
+
+
+
+## Lähteet 
+
+Karvinen Tero 2018, Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages, Luettavissa: https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+
+Karvinen Tero 2023, h13 Hello world!, Luettavissa: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h13-hello-world
