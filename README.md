@@ -59,10 +59,7 @@ Tulos:
 
 - Tiedoston sisään:
 
-      #include <stdio.h>
-      int main(){
-        printf("Hello World!!!\n");
-      }
+![Add file: 13 4](13-4.PNG)
       
 - Tallennus, jonka jälkeen:
 
@@ -77,6 +74,7 @@ Tulos:
 ![Add file: 13 3](13-3.PNG)
 
 
+Done ~00:25
 
 ## Lähteet 
 
