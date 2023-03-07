@@ -31,7 +31,7 @@ Aloitin ~00:02
       
 Tulos:
 
-![Add file: 13 1](13-1.PNG)
+![Add file: 13 1](h13-1.PNG)
 
 ### Bash
 
@@ -59,7 +59,7 @@ Tulos:
 
 - Tiedoston sisään:
 
-![Add file: 13 4](13-4.PNG)
+![Add file: 13 4](h13-4.PNG)
       
 - Tallennus, jonka jälkeen:
 
