@@ -76,6 +76,67 @@ Tulos:
 
 Done ~00:25
 
+## b) Greetme
+
+Aloitin ~00:40
+
+- Loin kotihakemistooni kansion ``bin``, johon teen bash scriptin.
+
+            $ cd
+            $ mkdir bin
+            
+- Siirryin kansioon, jonka jälkeen tein micro editorilla tiedoston ``greetme``
+
+            $ cd bin/
+            $ micro greetme
+            
+- Tiedostoon kirjoitin seuraavan scriptin:
+
+![Add file: 13 5](13-5.PNG)
+
+- ``#!/bin/bash`` tiedoston alkuun.
+
+            for name in $@
+            do
+                  echo "Hello, $name"
+            done
+          
+ - Tämä osa scriptistä ottaa argumentin scriptin suorituksen yhteydessä eli ``greetme`` jälkeen kirjoitettavan argumentin esim. ``greetme Miikka`` Tässä argumentti on siis ``Miikka`` ja se menee objektiin, joka on scriptissä ``name``. Tämän jälkeen scripti vastaa ``"Hello, $name"`` eli ``Hello Miikka``.
+ -  Lopussa oleva ``PATH=...`` määrittelee polun scriptille, joka on ``bin`` kansiossa.
+      - ohjelmaa voisi suorittaa ilman näitä määrityksiä(./greetme miikka), mutta halusin, että scriptiä voi suorittaa pelkällä nimellä eli "greetme".
+      - 
+- Testataan toimiiko:
+
+            $ greetme miikka
+            
+- Scripti vastasi ``bash: /home/miikkas/bin/greetme: Permission denied.
+- Katsoin tiedoston oikeudet
+
+            $ ls -l greetme
+           
+![Add file: 13 8](13-8.PNG)
+
+Kuten kuvasta näkee, tiedostolla ei ole oikeuksia suorittamista varten. Teidostolla on pelkästään rw oikeudet eli read ja write. 
+- Lisätään execute oikeudet tiedostolle
+
+            $ chmod u+x greetme
+       
+- Testataan uudestaan toimiiko scripti:
+
+            $ greetme miikka
+            
+![Add file: 13 9](13-9.PNG)
+
+Toimii!
+
+Testaan vielä, että toimii myös kotihakemistossa:
+
+![Add file: 13 6](13-6.PNG)
+
+Homma pelaa!
+
+Lopetin tehtävän ~1:55
+
 ## Lähteet 
 
 Karvinen Tero 2018, Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – Programming Languages, Luettavissa: https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
