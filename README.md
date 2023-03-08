@@ -104,7 +104,16 @@ Aloitin ~00:40
  - Tämä osa scriptistä ottaa argumentin scriptin suorituksen yhteydessä eli ``greetme`` jälkeen kirjoitettavan argumentin esim. ``greetme Miikka`` komennossa argumentti on  ``Miikka``. Argumentti menee objektiin, joka on scriptissä ``name``. Tämän jälkeen scripti vastaa ``"Hello, $name"`` eli ``Hello Miikka``.
  -  Lopussa oleva ``PATH=...`` määrittelee polun scriptille, joka on ``bin`` kansiossa.
       - Nyt voin suorittaa scriptiä pelkästään sen nimellä eli ``greetme``.
-      - 
+      
+ - Jotta scripti toimii pelkällä nimellä käyn lisäämässä ``.bashrc`` tiedostoon polun:
+      - Lisätään tiedoston loppuun
+      
+            export PATH=$PATH:$HOME/bin
+
+![Add file: 13 10](13-10.PNG)
+
+Jotta muutokset tulevat varmasti voimaan, kirjaudun vielä ulos käyttäjältä ja uudestaan sisään.
+
 - Testataan toimiiko:
 
             $ greetme miikka
