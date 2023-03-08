@@ -95,6 +95,7 @@ Aloitin ~00:40
 ![Add file: 13 5](13-5.PNG)
 
 - ``#!/bin/bash`` tiedoston alkuun.
+- Jonka jälkeen
 
             for name in $@
             do
