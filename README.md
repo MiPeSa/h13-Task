@@ -102,6 +102,7 @@ Aloitin ~00:40
             done
           
  - Tämä osa scriptistä ottaa argumentin scriptin suorituksen yhteydessä eli ``greetme`` jälkeen kirjoitettavan argumentin esim. ``greetme Miikka`` komennossa argumentti on  ``Miikka``. Argumentti menee objektiin, joka on scriptissä ``name``. Tämän jälkeen scripti vastaa ``"Hello, $name"`` eli ``Hello Miikka``.
+ - ``$@`` määrittelee parametrien sijoitusta alkaen ykkösestä.
  -  Lopussa oleva ``PATH=...`` määrittelee polun scriptille, joka on ``bin`` kansiossa.
       - Nyt voin suorittaa scriptiä pelkästään sen nimellä eli ``greetme``.
       
@@ -141,6 +142,8 @@ Toimii!
 Testaan vielä, että toimii myös kotihakemistossa:
 
 ![Add file: 13 6](13-6.PNG)
+
+![Add file: 13 11(13-11.PNG)
 
 Homma pelaa!
 
