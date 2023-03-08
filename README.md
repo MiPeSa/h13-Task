@@ -144,3 +144,5 @@ Karvinen Tero 2018, Hello World Python3, Bash, C, C++, Go, Lua, Ruby, Java – P
 Karvinen Tero 2023, h13 Hello world!, Luettavissa: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h13-hello-world
 
 StackOverflow, How do I run a shell script without using "sh" or "bash" commands?, Luettavissa: https://stackoverflow.com/questions/8779951/how-do-i-run-a-shell-script-without-using-sh-or-bash-commands
+
+FreeCodeCamp, Zaira Hira 2022, Shell Scripting for Beginners – How to Write Bash Scripts in Linux, Luettavissa: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
