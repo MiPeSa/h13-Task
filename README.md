@@ -144,7 +144,7 @@ Testaan vielä, että toimii myös kotihakemistossa:
 
 ![Add file: 13 6](13-6.PNG)
 
-![Add file: 13 11(13-11.PNG)
+![Add file: 13 11](13-11.PNG)
 
 Homma pelaa!
 
