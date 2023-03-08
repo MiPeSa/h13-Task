@@ -103,8 +103,7 @@ Aloitin ~00:40
           
  - Tämä osa scriptistä ottaa argumentin scriptin suorituksen yhteydessä eli ``greetme`` jälkeen kirjoitettavan argumentin esim. ``greetme Miikka`` komennossa argumentti on  ``Miikka``. Argumentti menee objektiin, joka on scriptissä ``name``. Tämän jälkeen scripti vastaa ``"Hello, $name"`` eli ``Hello Miikka``.
  -  Lopussa oleva ``PATH=...`` määrittelee polun scriptille, joka on ``bin`` kansiossa.
-      - ohjelmaa voisi suorittaa ilman näitä määrityksiä(./greetme miikka), mutta halusin, että scriptiä voi suorittaa pelkällä nimellä eli "greetme".
-      - 
+      - Nyt voin suorittaa scriptiä pelkästään sen nimellä eli ``greetme``.
 - Testataan toimiiko:
 
             $ greetme miikka
